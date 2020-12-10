@@ -477,6 +477,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding-left: 0px;
+  list-style: none;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 30px;
 }
 
 .social-icon:not(:last-child) {
@@ -489,12 +493,13 @@ body {
 }
 
 .description-team {
-  padding-bottom: 30px;
+  margin-bottom: 16px;
 }
 
+/* 
 .social-list {
   margin-top: 16px;
-}
+} */
 
 .our-team-descripton:not(:last-child) {
   margin-right: 30px;
