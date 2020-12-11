@@ -785,12 +785,16 @@ fill: white;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-join .social-icons-link:hover .social-icons-svg,
-.footer-join .social-icons-link:focus .social-icons-svg {
+.footer-join .social-icons-link:hover ,
+.footer-join .social-icons-link:focus  {
   fill: white;
 }
 
 .footer-join .social-icons-link:hover,
 .footer-join .social-icons-link:focus {
   background-color: #2196F3 ;
+}
+
+.footer-join .social-icons-svg {
+  fill: white;
 }
