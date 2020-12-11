@@ -114,7 +114,9 @@ body {
 }
 
 .link:hover a,
-.link:focus a {
+.link:focus a,
+.link:hover,
+.link:focus  {
   color: #2196f3;
 }
 
@@ -350,7 +352,7 @@ body {
   height: 120px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../Images/feature/antenna.jpg);
+  background-image: url(../Images/feature/antenna.svg);
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -363,7 +365,7 @@ body {
   height: 120px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../Images/feature/clock.jpg);
+  background-image: url(../Images/feature/clock.svg);
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -376,7 +378,7 @@ body {
   height: 120px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../Images/feature/diagram.jpg);
+  background-image: url(../Images/feature/monitor.svg);
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -389,7 +391,7 @@ body {
   height: 120px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../Images/feature/astronaut.jpg);
+  background-image: url(../Images/feature/cosmo.svg);
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -486,10 +488,6 @@ body {
 .social-icons-item:not(:last-child) {
   margin-right: 10px;
 }
-
-/* .social-icons-item {
-  height: 44px;
-} */
 
 .social-icons-link {
   display: flex;
@@ -739,4 +737,8 @@ body {
 
 .footer {
   padding: 60px 0px;
+}
+
+.footer-join >.social-list {
+  margin: 0px;
 }
