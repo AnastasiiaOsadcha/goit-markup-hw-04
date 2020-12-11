@@ -553,13 +553,40 @@ fill: white;
   justify-content: space-between;
 }
 
-.our-customer-descripton:not(:last-child) {
+.customer-list:not(:last-child) {
   margin-right: 30px;
 }
 
 .section-customer {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.customer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  background-color: white;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;  
+  }
+
+.customer-link:hover,
+.customer-link:focus {
+  background-color: white;
+  border: 1px solid #2196f3;
+  }
+
+.customer-icon:hover,
+.customer-icon:focus {
+  fill: #2196f3 ;
+}
+
+.customer-icon {
+  fill: #afb1b8;
 }
 
 /* Work-btn portfolio*/
